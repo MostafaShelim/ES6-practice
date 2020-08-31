@@ -10,7 +10,7 @@
      }
      getFullName(){
          console.log(`${this.name} ${this.FatherName}`);
-     }
+     }//reused of parent class method or data
  }
 
  const Son1 = new Son("Mostafa");
