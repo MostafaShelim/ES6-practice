@@ -5,7 +5,7 @@ class Parent{
 }
 class Child extends Parent{
     constructor(name){
-        super();
+        super();//must use korte hbe
         this.name = name;
     }
     getFullName(){
